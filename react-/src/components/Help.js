@@ -3,7 +3,7 @@ const displayMessage = ()=> {
 }
 
 function Help(){
-    return <h1>The message is: {displayMessage()}</h1>
+    return <h1>The message is: {displayMessage()}</h1>;
 }
 
-export default Help
+export default Help;

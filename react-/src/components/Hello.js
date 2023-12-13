@@ -1,7 +1,7 @@
 const name = "Niels";
 
 function Hello(){
-    return<h1>Hello {name}!</h1>
+    return<h1>Hello {name}!</h1>;
 }
 
 // const Hello = ()=> <h1>Hello there</h1>;
