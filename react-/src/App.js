@@ -3,7 +3,7 @@ import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Help from "./components/Help";
 import Profile from "./components/Profile";
-import Classcomp from './Classcomp';
+import Classcomp from './components/Classcomp';
 
 function App() {
   return (
