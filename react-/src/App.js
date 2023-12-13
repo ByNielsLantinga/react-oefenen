@@ -4,6 +4,7 @@ import Message from "./components/Message";
 import Help from "./components/Help";
 import Profile from "./components/Profile";
 import Classcomp from './components/Classcomp';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Hello/>
       <Message/>
       <Help/>
-      <Profile name="Niels" lastname="Lantigna"/>
+      <Profile name="Niels" lastname="Lantinga"/>
       <Profile name="Tom" lastname="van den Boom"/>
       <Classcomp messagecontent="This is  a message from props "/>
+      <Counter/>
     </div>
   );
 }
